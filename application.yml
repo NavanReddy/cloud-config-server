@@ -8,12 +8,3 @@ eureka:
       hostname: 
       
       
-microservice:
-  customer-service:
-    endpoints:
-      endpoint:
-        url: copy url
-  manager-service:
-    endpoints:
-      endpoint:
-        url: copy url
