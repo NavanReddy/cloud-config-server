@@ -1,0 +1,19 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+      instance:
+      hostname: 
+      
+      
+microservice:
+  customer-service:
+    endpoints:
+      endpoint:
+        url: copy url
+  manager-service:
+    endpoints:
+      endpoint:
+        url: copy url
